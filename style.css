@@ -7,8 +7,8 @@
 
 /* Body styles */
 body {
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,6 @@ body {
 
 /* Header styles */
 header {
-    background-color: #000000; /* Black header */
-    color: #ffffff; /* White text */
     padding: 20px;
     width: 100%;
 }
@@ -31,9 +29,18 @@ main {
     padding: 20px;
 }
 
+/* GitHub link styles */
+.github-link {
+    color: #ffffff; /* White text for the link */
+    text-decoration: underline; /* Underline to indicate it's clickable */
+}
+
+.github-link:hover {
+    color: #0366d6; /* GitHub blue on hover */
+}
+
 /* Footer styles */
 footer {
-    background-color: #000000; /* Black footer */
     color: #ffffff; /* White text */
     text-align: center;
     padding: 10px;

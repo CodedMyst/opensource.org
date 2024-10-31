@@ -7,8 +7,8 @@
 
 /* Body styles */
 body {
-    background-color: #000000; /* Black background */
-    color: #ffffff; /* White text */
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -31,17 +31,17 @@ main {
 
 /* GitHub link styles */
 .github-link {
-    color: #ffffff; /* White text for the link */
+    color: #e0e0e0; /* Light text for the link */
     text-decoration: underline; /* Underline to indicate it's clickable */
 }
 
 .github-link:hover {
-    color: #0366d6; /* GitHub blue on hover */
+    color: #64b5f6; /* Light blue on hover */
 }
 
 /* Footer styles */
 footer {
-    color: #ffffff; /* White text */
+    color: #e0e0e0; /* Light text */
     text-align: center;
     padding: 10px;
     position: absolute;
